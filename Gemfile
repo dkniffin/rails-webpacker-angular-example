@@ -32,6 +32,7 @@ group :development, :test do
   gem "database_cleaner"
   gem "factory_bot_rails"
   gem "faker"
+  gem "foreman"
   gem "pry-byebug"
   gem "rails-erd"
   gem "rspec-rails"

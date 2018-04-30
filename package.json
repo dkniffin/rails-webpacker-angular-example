@@ -1,11 +1,6 @@
 {
-  "name": "angular-test",
+  "name": "rails-new-angular-test",
   "private": true,
-  "scripts": {
-    "lint": "npm run lint:css && npm run lint:js",
-    "lint:css": "stylelint 'app/**/*.css'",
-    "lint:js": "eslint --format 'node_modules/eslint-friendly-formatter' --ext .js,.jsx ./app"
-  },
   "dependencies": {
     "@angular/common": "^5.2.10",
     "@angular/compiler": "^5.2.10",
@@ -15,17 +10,12 @@
     "@rails/webpacker": "3.5",
     "core-js": "^2.5.5",
     "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.0.0",
     "ts-loader": "3.5.0",
     "typescript": "^2.8.3",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {
-    "eslint": "^3.12.2",
-    "eslint-config-smashing-boxes": "^2.0.0",
-    "eslint-friendly-formatter": "^2.0.6",
-    "eslint-loader": "^1.6.1",
-    "eslint-plugin-react": "^6.8.0",
-    "stylelint": "^7.7.0",
     "webpack-dev-server": "2.11.2"
   }
 }
