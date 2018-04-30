@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: angular_test_development
+
+test:
+  <<: *default
+  database: angular_test_test
+
+production:
+  <<: *default
+  database: angular_test_production
+  username: angular_test
+  password: <%= ENV['ANGULAR-TEST_DATABASE_PASSWORD'] %>
